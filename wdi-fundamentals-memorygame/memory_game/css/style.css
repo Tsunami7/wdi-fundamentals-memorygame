@@ -1,0 +1,88 @@
+h1{
+  font-family: "railway", sans-serif;
+  font-weight: 400;
+  color: #0D2C40;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin: 0;
+}
+h2{
+  text-decoration: underline;
+  font-family: "railway", sans-serif;
+  color: #0d2c40;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+}
+h1,h2,li{
+  text-transform: uppercase;
+}
+p{
+  font-family: "Droid Serif",serif;
+  line-height: 26px;
+  font-size: 18px;
+}
+body{
+  text-align: center;
+  margin: 0;
+}
+li{
+  display:inline;
+}
+a{
+  color: #f15b31;
+  font-family: "railway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600px;
+  font-size: 18px;
+  margin: 0 20px;
+  color: #ffffff;
+}
+header, nav{
+  background-color: #f15b31;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+nav{
+  background-color: #00a6b3;
+  color: #ffffff;
+  padding: 20 0;
+  border-bottom: 2px solid transparent;
+}
+main{
+  width: 850px;
+  margin: 35px auto;
+}
+img{
+  margin: 40px 8px 0 8px;
+}
+footer{
+  text-transform: uppercase;
+  padding:20px;
+  background-color: #0d2c40;
+  color:white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+.Copyright{
+  float: left;
+}
+.message{
+  float: right;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.name{
+  color:#f15b31;
+  font-weight: 700;
+}
+a:hover{
+  border-color: white;
+}
